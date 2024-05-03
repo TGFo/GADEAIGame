@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,12 +28,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        if(instance == null)
+        if(instance != null && instance != this)
         {
-            instance = this;
+            Destroy(this);
         }else
         {
-            Destroy(gameObject);
+            instance = this;
         }
     }
     void Start()
@@ -54,6 +55,10 @@ public class GameManager : MonoBehaviour
                     HighlightPossibleMoves(point);
                 }
             }
+        }
+        if(blueScore == 4 || redScore == 4)
+        {
+            SceneManager.LoadScene(1);
         }
     }
     public void PlayerVsPlayerBtn()

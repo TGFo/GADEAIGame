@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 1177121545785517950}
   - component: {fileID: 1908196492944733951}
   - component: {fileID: 1493499364002240252}
-  - component: {fileID: 8624341743380331291}
+  - component: {fileID: 4033298822300029448}
   m_Layer: 0
   m_Name: P2Pawn
   m_TagString: P2Piece
@@ -212,7 +212,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8624341743380331291
+--- !u!114 &4033298822300029448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 788380279000463881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0ee8a4650fccb64a867e23444edf871, type: 3}
+  m_Script: {fileID: 11500000, guid: 15632eb6ff0edfe4a8363609cc62771f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isSelected: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8624341743380331291}
+      - m_Target: {fileID: 4033298822300029448}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8624341743380331291}
+      - m_Target: {fileID: 4033298822300029448}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8624341743380331291}
+      - m_Target: {fileID: 4033298822300029448}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8624341743380331291}
+      - m_Target: {fileID: 4033298822300029448}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3

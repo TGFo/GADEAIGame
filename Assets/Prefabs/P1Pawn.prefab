@@ -389,7 +389,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1677282507529312617}
+      - m_Target: {fileID: 6767080437279348806}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1677282507529312617}
+      - m_Target: {fileID: 6767080437279348806}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 1621901537147559778}
   - component: {fileID: 6574429833553608290}
   - component: {fileID: 5332866658606292949}
-  - component: {fileID: 1677282507529312617}
+  - component: {fileID: 6767080437279348806}
   m_Layer: 0
   m_Name: P1Pawn
   m_TagString: P1Piece
@@ -644,7 +644,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1677282507529312617
+--- !u!114 &6767080437279348806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773964528424787526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0ee8a4650fccb64a867e23444edf871, type: 3}
+  m_Script: {fileID: 11500000, guid: 15632eb6ff0edfe4a8363609cc62771f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isSelected: 0
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1677282507529312617}
+      - m_Target: {fileID: 6767080437279348806}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1677282507529312617}
+      - m_Target: {fileID: 6767080437279348806}
         m_TargetAssemblyTypeName: MovingPoint, Assembly-CSharp
         m_MethodName: MoveInDirection
         m_Mode: 3
