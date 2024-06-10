@@ -23,6 +23,7 @@ public class MovingPoint : MonoBehaviour
     {
         MovePawn(direction);
         StartCoroutine(DropOpponent());
+        GameManager.instance.boardManager.GenerateArrayBoard();
         GameManager.instance.EndTurn();
     }
     public void MovePawn(int direction)

@@ -23,12 +23,12 @@ public class BoardPoint : MonoBehaviour
             occupyingPiece = other.gameObject;
             movingPoint = occupyingPiece.GetComponent<MovingPoint>();
             isFree = false;
-            Debug.Log("contact" + gameObject.name);
+            //Debug.Log("contact" + gameObject.name);
             for (int i = 0; i < adjacentPoints.Length; i++)
             {
                 if (adjacentPoints[i] != null)
                 {
-                    Debug.Log("check");
+                    //Debug.Log("check");
                     movingPoint.MovableLocations[i] = adjacentPoints[i];
                 }
             }
@@ -40,7 +40,7 @@ public class BoardPoint : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("ExitContact");
+        //Debug.Log("ExitContact");
         occupyingPiece = null;
         movingPoint = null;
         isFree = true;
